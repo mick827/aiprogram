@@ -398,21 +398,21 @@ function initializeCourseButtons() {
     if (basicBtn) {
         basicBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            handleCourseApplication('basic', '基本コース', '¥66,000', '月額¥22,000');
+            handleCourseApplication('basic', '基本コース', '¥66,000', '月額¥11,000');
         });
     }
     
     if (supportBtn) {
         supportBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            handleCourseApplication('support', '伴走コース', '¥99,000', '月額¥33,000');
+            handleCourseApplication('support', '伴走コース', '¥99,000', '月額¥16,500');
         });
     }
     
     if (premiumBtn) {
         premiumBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            handleCourseApplication('premium', '売上アップコース', '¥132,000', '月額¥44,000');
+            handleCourseApplication('premium', '売上アップコース', '¥132,000', '月額¥22,000');
         });
     }
 }
